@@ -13,9 +13,6 @@ public class ProductManager {
         this.repository = repository;
     }
 
-    public ProductManager() {
-
-    }
 
     //    Добавление продукта
     public void add(Product product) {
