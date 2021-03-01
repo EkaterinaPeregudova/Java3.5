@@ -50,8 +50,8 @@ class ProductManagerTest {
     void searchMatchesAuthor() {
         setUp();
 
-        Product[] expected = new Product[]{first};
-        Product[] actual = manager.searchBy("А.Попов");
+        Product[] expected = new Product[]{third};
+        Product[] actual = manager.searchBy("С.Сидоров");
         assertArrayEquals(expected, actual);
     }
 
